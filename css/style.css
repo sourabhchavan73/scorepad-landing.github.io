@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+.padding-0{
+	padding: 0px;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.main-heading{
+	font-size: 36px;
+    font-weight: 900;
+}
+.right-img img{
+	width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.launching{
+	background: #e60a0a;
+	padding: 10px 40px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.margin-left{
+	padding-left: 50px;
+}
+
+.btn {
+    background: #e63535;
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem 30px;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control {
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+}
+.form-length{
+	width: 45rem;
+}
+
+.user-request a{
+    color: #212529;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.modal {
+    position: absolute;
+    top: 5%;
+}
+
+.modal-dialog{
+    width: 40%;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;                                                  
+}
+
+.spinner-border{
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+
+@media (max-width: 768px) {
+h4 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 60;
+}
+.launching {
+    background: #e60a0a;
+    padding: 10px 40px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-heading {
+    font-size: 24px;
+    font-weight: 900;
+}
+.form-length {
+    width: 100%;
+}
+.btn{
+	padding: .375rem 8px;
+}
+.right-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.margin-left {
+    padding-left: 15px;
+}
+}
